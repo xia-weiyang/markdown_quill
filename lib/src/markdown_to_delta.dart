@@ -87,6 +87,9 @@ class MarkdownToDelta extends Converter<String, Delta>
     'h1': (_) => [Attribute.h1],
     'h2': (_) => [Attribute.h2],
     'h3': (_) => [Attribute.h3],
+    'h4': (_) => [Attribute.h4],
+    'h5': (_) => [Attribute.h5],
+    'h6': (_) => [Attribute.h6],
   };
 
   final _elementToInlineAttr = <String, ElementToAttributeConvertor>{
